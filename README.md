@@ -1,7 +1,5 @@
 # JohnBryce 1st Project
 
-===========
-
 ## About the project:
 
 This project is like a task board.
@@ -11,7 +9,9 @@ This project is like a task board.
 - After the user press the 'Add Task' button, the task will be added below the form as a post stick.
 - Inside the post stick, the task description will be shown (if the task description is long, the user can roll up/down/left/right to see the entire task description).
 - Below the task description the date deadline and time will be shown in the post stick.
-- # Finally, the user can also delete his post stick (task) - it will also be deleted from the local storage.
+- Finally, the user can also delete his post stick (task) - it will also be deleted from the local storage.
+
+---
 
 ## Languages used in the project:
 
