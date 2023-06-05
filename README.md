@@ -1,5 +1,7 @@
 # JohnBryce 1st Project
 
+---
+
 ## About the project:
 
 This project is like a task board.
