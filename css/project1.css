@@ -1,0 +1,167 @@
+body {
+  font-family: "Caveat", cursive;
+  font-size: 22px;
+  text-align: center;
+  background-image: url(../img/tile.jpg);
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@500&display=swap");
+
+h1 {
+  font-size: 40px;
+}
+
+h1 {
+  color: black;
+  font-weight: bolder;
+  margin-bottom: 2%;
+}
+
+.Box {
+  border: 1px solid whitesmoke;
+  box-shadow: 5px 5px 5px;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -15px;
+  padding: 20px;
+  border-radius: 30px;
+  background-image: url(../img/formbg.jpg);
+  background-size: 90%;
+}
+
+textarea {
+  background-color: transparent;
+  border: 8px double rgb(249, 100, 46);
+  border-radius: 15px;
+  font-size: 23px;
+  font-weight: bold;
+  font-family: "Caveat", cursive;
+  margin-bottom: 2%;
+  width: 70%;
+  height: 130px;
+}
+
+textarea::placeholder {
+  color: black;
+  text-decoration: underline gray;
+  font-size: 25px;
+  font-weight: lighter;
+  padding-top: 1%;
+}
+
+label {
+  font-size: 25px;
+  font-weight: bolder;
+  width: 50%;
+  margin-bottom: 2%;
+}
+
+input {
+  border-radius: 15px;
+  border: 1px solid #adadad;
+  width: 25%;
+  height: 10%;
+  background-color: #f7f7f7;
+}
+
+.btn-success,
+.btn-danger {
+  width: 20%;
+  height: 5%;
+}
+
+.noteBox {
+  width: 200px;
+  height: 250px;
+  margin-left: 2.5%;
+  margin-top: 1%;
+  margin-bottom: 2%;
+  background-image: url(../img/notebg.png);
+  float: left;
+  position: relative;
+  text-align: left;
+}
+
+.setDate {
+  margin-left: 5%;
+  margin-right: 45%;
+}
+
+.setHour {
+  margin-right: 70%;
+  margin-top: -3%;
+  margin-left: 5%;
+}
+
+.description {
+  width: 70%;
+  height: 60%;
+  margin-top: 15%;
+  margin-right: 25%;
+  margin-left: 5%;
+  overflow: scroll;
+  display: inline-block;
+}
+
+.glyphicon,
+.glyphicon-remove {
+  display: none;
+  position: absolute;
+  top: 10%;
+  right: 10%;
+  padding: 5px 10px;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.noteBox:hover .glyphicon-remove {
+  display: block;
+}
+
+.description::-webkit-scrollbar {
+  height: 4px;
+  width: 4px;
+  background: lightgoldenrodyellow;
+}
+
+.description::-webkit-scrollbar-thumb:horizontal {
+  background: lightslategrey;
+  border-radius: 10px;
+}
+
+.description::-webkit-scrollbar-thumb:vertical {
+  background: lightslategrey;
+  border-radius: 10px;
+}
+
+.noteBox.added {
+  animation-name: fadeIn;
+  animation-duration: 1.5s;
+  transition-timing-function: linear;
+}
+
+.noteBox.removed {
+  animation-name: fadeOut;
+  animation-duration: 0.5s;
+  transition-timing-function: linear;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}

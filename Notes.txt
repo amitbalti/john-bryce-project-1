@@ -1,0 +1,10 @@
+Project Todo list:
+        1. Make the search bar work.
+    DONE - 2. Make the info button to show usd, eur, ils.
+    DONE - 3. Make the user to select only 5 coins (using bootstrap modal).
+        4. Make live reports.
+    DONE - 5. Make the about page.
+        6. Make every button in the nav bar to work.
+    DONE - 7. Make everything to look good also in smaller screens - phone and ect. 
+        8. Make everything work - meaning if I don't have the whole info (like rating) - to not show this coin. Or if the same coin is returning - to not show it.
+    DONE - 9. Make the spinner work with the modal as well...
